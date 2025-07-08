@@ -1,0 +1,32 @@
+:root {
+
+  /* Variables Styles Color Primary */
+
+  --orange-500: hsl(25, 97%, 53%);
+
+  /* Variables Styles Colors Neutral */
+
+  --white: hsl(0, 100%, 100%);
+  --grey-500: hsl(217, 12%, 63%);
+  --grey-850: hsl(213, 20%, 22%);
+  --grey-900: hsl(213, 19%, 18%);
+  --grey-950: hsl(216, 12%, 8%);
+
+  /* Variables Styles Fonts */
+
+  --fs-xs: 0.75rem;
+  --fs-bs: 1rem;
+  --fs-md: 1.25rem;
+  --fs-lg: 1.5rem;
+  --fs-xlg: 1.75rem;
+
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  /* Break Points Display */
+
+  --bp-mobile: 375px;
+  --bp-desktop: 1440px;
+
+}

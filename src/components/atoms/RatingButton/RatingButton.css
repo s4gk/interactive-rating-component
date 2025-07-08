@@ -1,0 +1,24 @@
+@import '@/styles/variables.css';
+
+.round_button {
+  background-color: var(--grey-850);
+  width: 3rem;
+  height: 3rem;
+  color: var(--white);
+  border-radius: 50%;
+}
+
+.round_button:hover {
+  background-color: var(--orange-500);
+}
+
+.selected {
+  background-color: var(--grey-500);
+}
+
+@media screen and (min-width: 1440px) {
+  .round_button {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}

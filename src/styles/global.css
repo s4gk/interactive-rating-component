@@ -1,0 +1,81 @@
+/* 0. Defining Font */
+@font-face {
+  font-family: "Overpass", sans-serif;
+  src: url('/public/fonts/Overpass-VariableFont_wght.woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 1. Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar márgenes y paddings por defecto */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Asegurar que el body ocupa toda la altura */
+html,
+body {
+  height: 100%;
+  font-size: 15px;
+}
+
+/* 4. Tipografía base */
+body {
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Imágenes y medios */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Formularios: inputs, buttons, etc. */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 7. Enlaces sin estilos subrayados */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 8. Listas sin viñetas */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

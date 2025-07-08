@@ -1,0 +1,16 @@
+@import '@/styles/variables.css';
+
+.submit_button {
+  background-color: var(--orange-500);
+  color: var(--grey-950);
+  border-radius: 32px;
+  width: 100%;
+  font-size: var(--fs-bs);
+  padding: 0.75rem 0;
+  letter-spacing: 0.15rem;
+  font-weight: var(--fw-700);
+}
+
+.submit_button:hover {
+  background-color: var(--white);
+}

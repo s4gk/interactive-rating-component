@@ -1,0 +1,14 @@
+@import '@/styles/variables.css';
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.buttons__rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
